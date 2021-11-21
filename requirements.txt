@@ -13,4 +13,6 @@ sklearn==0.0
 Werkzeug==1.0.0
 matplotlib>=1.4.3
 pandas>=0.19
-
+django
+django-heroku
+requests
