@@ -1,0 +1,289 @@
+body {
+/* 	
+	background-image: url(../images/bg4.jpg); */
+   	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color:#FF6B6B;
+	
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Tisa';
+}
+
+.text-p {
+	font-family: 'Arimo', sans-serif;
+	color: black;
+	font-weight: 500;
+}
+
+
+/*Home page*/
+#home .jumbotron {
+	
+	/* background-image: url(../images/about1.jpg); */
+	background-color:#FF6B6B;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	opacity: 0.95;
+	margin: 2rem 1rem;
+}
+#home .jumbotron h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3.5rem;
+}
+
+#home .row {
+	margin: auto 5rem;
+}
+
+@media all and (max-width: 500px){
+	#home .row {
+		margin: auto 1rem;
+	}
+
+	#home .jumbotron h1 {	
+		
+		font-size: 3rem;
+		font-weight: 500;
+	}
+}
+
+@media all and (min-width: 600px) and (max-width: 767px){
+	#home .row {
+		
+		margin: auto 8rem;
+	}
+}
+
+#home .row .card {
+	margin: auto 1.25rem;
+}
+
+.about {
+	padding: auto 5rem;
+}
+
+.text-monospace {
+	font-size: 1.5rem;
+}
+
+
+/*Table display*/
+#ForTable .table, #bbtable .table {
+	width: 80%;
+	margin: 1rem auto;
+	color: black;
+	font-weight: 500;
+}
+
+#ForTable .table-bordered td,#ForTable .table-bordered th, #bbtable .table-bordered td,#bbtable .table-bordered th {
+    border: 1px solid black;
+}
+
+#ForTable .table-bordered th, #bbtable .table-bordered th {
+	border-bottom: 2px solid black;
+}
+
+
+/*Navbar*/
+#navbarchange {
+	background-color: #B61919;
+	margin: 1rem 1rem;
+}
+
+#navbarchange .dropdown-menu {
+	background-color:#B61919;	
+	margin: 0;
+	border: 1px solid black;
+	padding: 5px;
+	font-family: 'Noto Serif', serif;
+	border: 10px;
+
+}
+
+#navbarchange .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+	font-size: 1.35rem;
+	font-family: 'Noto Serif', serif;
+	padding-right: 1.25rem;
+	padding-left: 1.5rem;
+}
+
+#navbarchange .navbar-nav .dropdown-item {
+	color: rgba(255,255,255,1);
+	font-size: 1.25rem;
+	padding-left: 2rem;
+}
+
+
+
+#navbarchange .navbar-brand {
+	font-size : 1.75rem;
+	font-weight: 500;
+	margin-right: 3rem;
+	margin-left: 1rem;
+}
+
+#navbarchange .navbar-nav a:hover{
+	font-weight: 550;
+	background-color: #FF6B6B;
+}
+
+.card{
+	align-items: center;
+	
+}
+
+
+.card-deck {
+	
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 100px;
+	
+}
+.card-deck h5{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.card-img-top {
+	margin-top: 40px;
+	max-width: 20rem;
+}
+
+/*icon color*/
+i {
+	color: #9b0000;
+}
+
+
+/*Form Display*/
+#formstyling {
+	width: 65%;
+	margin:2rem auto ;
+
+}
+
+@media all and (min-width: 1281px){
+	#formstyling {
+		
+		width: 40%;
+		margin:2rem auto ;
+	}
+}
+
+@media all and (min-width: 761px) and (max-width: 1280px){
+	#formstyling {
+		width: 50%;
+		margin:2rem auto ;
+	}
+}
+
+@media all and (min-width: 650px) and (max-width: 760px){
+	#formstyling {
+		width: 55%;
+		margin:2rem auto ;
+	}
+}
+
+#formstyling h1{
+	font-family: 'Playfair Display', serif;
+}
+
+#formstyling p{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.25rem;
+}
+
+label {
+	font-family: 'Noto Serif', serif;
+	font-weight: 1000;
+}
+
+#btnSubmit {
+	outline: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	background-color:#FF6B6B;
+}
+#btnSubmit:hover {
+	outline: none;
+	background-color:#ec4444;
+}
+.btn:active {
+	outline: none;
+	box-shadow: 0 5px black;
+	transform: translateY(4px);
+  }
+
+input[type=text] {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/*CSV file label*/
+#padRigProb {
+	padding-right: 0;
+}
+
+
+/*Graphs Display*/
+#displayGraphs {
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+@media all and (min-width: 600px){
+	#displayGraphs {
+		width: 90%;
+	}
+}
+
+h3,li {
+	font-family: 'Noto Serif', serif;
+}
+
+.form-group {
+	font-family: 'Noto Serif', serif;
+}
+
+#CSVData {
+	font-family: 'Noto Serif',serif;
+}
+
+.btn-info {
+	outline: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	background-color:#FF6B6B;
+}
+.btn-info:hover {
+	outline: none;
+	background-color:#ec4444;
+}
+.btn-info:active {
+	outline: none;
+	box-shadow: 0 5px black;
+	transform: translateY(4px);
+  }
+
+.center-blood, .center-hospital {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	text-align: center;
+}
